@@ -1,0 +1,36 @@
+//We can say that 'switch' statements are the ternary operators of 'else if' statements. If you don't know what a ternary operator is check the other repositories.
+//Else if statements are fine if we had a couple of conditions but, what if we had 100s of conditions! Definitely writing that many 'else if' statements would sound like a pain.
+//The solution is 'switch statements'. As it provides a syntax that is easier to read and write. 
+//A 'switch' statement looks like this;
+
+let groceryItem = 'papaya';
+ 
+switch (groceryItem) {
+  case 'tomato':
+    console.log('Tomatoes are $0.49');
+    break;
+  case 'lime':
+    console.log('Limes are $1.49');
+    break;
+  case 'papaya':
+    console.log('Papayas are $1.29');
+    break;
+  default:
+    console.log('Invalid item');
+    break;
+}
+ 
+//The console will print 'Papayas are $1.29'
+
+//Writing the same in 'else if' statement, it would look this;
+let groceryItem = 'papaya';
+ 
+if (groceryItem === 'tomato') {
+  console.log('Tomatoes are $0.49');
+} else if (groceryItem === 'papaya'){
+  console.log('Papayas are $1.29');
+} else if (groceryItem === 'lime'){
+  console.log('Limes are $1.49')
+}else {
+  console.log('Invalid item');
+}
