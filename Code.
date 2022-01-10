@@ -1,0 +1,19 @@
+let tool = '';//Here we can see that 'tool' doesn't have a value, hence it will be evaluated as "falsy".
+
+// Use short circuit evaluation to assign  writingUtensil variable below:(Just ignore this line as it was given in the exercise of codecademy)
+let writingUtensil = tool || 'pen';//Here we are telling JS to assign the value of 'tool' to 'writingUtensil' if it evaluates as "truthy".
+
+console.log(`The ${writingUtensil} is mightier than the sword.`);//The console will print 'The "pen" is mightier than the sword' as the value of 'tool' was falsy.
+
+
+
+
+
+let tool = 'marker';//Here we can see that 'tool' has a value 'marker', so it will be evaluated as "truthy".
+
+// Use short circuit evaluation to assign  writingUtensil variable below:
+let writingUtensil = tool || 'pen';
+
+console.log(`The ${writingUtensil} is mightier than the sword.`);//The console will print 'The "marker" is mightier than the sword' as the variable 'tool' now has a value ie;'marker'.
+
+----------IF YOU HAD ANY QUESTIONS, FEEL FREE TO DM ME ON TWITTER @uzairkhan123221------------
