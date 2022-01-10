@@ -1,0 +1,20 @@
+//Using ternary operator we can simplify the use of 'if...else' statements. Take the following example.
+
+//Using if...else 
+
+let isLocked = false;
+
+if (isLocked) {
+  console.log('You will need a key to open the door.');
+} else {
+  console.log('You will not need a key to open the door.');
+}//The console will print 'You will not need a key to open the door.'
+
+
+//Using ternary operator (?)
+let isLocked = false;
+//In the following block, By using the ternary operator (?) we have simplified the statement, as if the statement returns as true the first expression is executed but, if it evaluates as false then as you can see the second expression gets executed.
+isLocked ? console.log('You will need a key to open the door.') :
+console.log('You will not need a key to open the door.')
+
+//The console will print 'You will not need a key to open the door.' as well but here we have a very short-handed way.
