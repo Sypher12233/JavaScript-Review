@@ -1,0 +1,19 @@
+//The difference between using 'if...else' and 'else if' is that in 'else if' statements we can get a possible outcome of more than two rather than only two by using the 'if...else' statement.
+
+//Usage of else if: It is used between the 'if' and 'else' operators(after the if and before the else). And 'else if' alse gets a condition. 
+//For example;
+
+let stopLight = 'yellow';
+ 
+if (stopLight === 'red') {
+  console.log('Stop!');
+} else if (stopLight === 'yellow') {
+  console.log('Slow down.');
+} else if (stopLight === 'green') {
+  console.log('Go!');
+} else {
+  console.log('Caution, unknown!');
+}
+//As you can see the 'else if' statements allow you to have multiple possible outcomes.
+
+-------AS ALLWAYS, FEEL FREE TO DM ME ON TWITTER @uzairkhan123221 REGARDING ANY ISSUES :) --------
