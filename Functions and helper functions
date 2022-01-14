@@ -1,0 +1,12 @@
+//Below is an example of usage of functions in javascript.
+//in line#4; the functions 'monitorCount' has been called with the parameters 'rows and columns', and the 'return' statement is used to basically return the value of the function, otherwise it would give an answer of undefined.
+
+
+
+function monitorCount(rows, columns) {
+  return rows * columns;
+};
+function costOfMonitors(rows, columns){     //here, costOfMonitors is what's called a 'helper function'. In JavaScript we can use (the return value of) one function as parameters for another function, this is what is refered to as helper function.
+  return monitorCount(rows, columns) * 200;
+} const totalCost = costOfMonitors(5 , 4);
+console.log(totalCost);
