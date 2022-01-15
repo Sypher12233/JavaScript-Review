@@ -10,3 +10,11 @@ function costOfMonitors(rows, columns){     //here, costOfMonitors is what's cal
   return monitorCount(rows, columns) * 200;
 } const totalCost = costOfMonitors(5 , 4);
 console.log(totalCost);
+
+//there are multiple ways of decalring/using functions in javascript.
+//there is the 'function expression' example; const myName = function(name){ 'code block' }.
+//and then the 'arrow function' example; function costOfMonitors(rows, columns){     
+  return monitorCount(rows, columns) * 200;
+}
+
+/*TWITTER HANDLE: -------AS ALLWAYS, FEEL FREE TO DM ME ON TWITTER @uzairkhan123221 REGARDING ANY ISSUES :) ————*/
