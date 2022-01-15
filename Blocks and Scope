@@ -1,0 +1,24 @@
+
+//Scope is the context in which our variables are declared and are of 4 types;Global and 
+//In a global scope the variable is not bound to any block of code, as they are defined outside the block and are called 'global variables'.
+//Global variables can be called and accessed any where in the code. Even inside of a block.
+//We think about scope in relation to blocks because variables can exist either outside of or within these blocks.
+//below is an example of function. Any code that is inside the curly braces{} is called 'block' and it is used in 'if' statements and 'functions'.
+
+//EXAMPLE 01;
+const city = 'New York City';     //here 'city' is a global variable.
+const logCitySkyline = function(){
+  let skyscraper = 'Empire State Building';
+  return 'The stars over the ' + skyscraper + ' in ' + city+'.';      //as you can see, the 'city' variable has been called here, inside the function block.
+ }; console.log(logCitySkyline());  //prints 'The stars over the Empire State Building in New York City.'
+ 
+ //EXAMPLE 02;
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+const stars = 'North Star';
+const callMyNightSky = () => {
+  return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy
+}; console.log(callMyNightSky());  //prints 'Night Sky: The Moon, North Star, and The Milky Way'
+
+
+/*TWITTER HANDLE: -------AS ALLWAYS, FEEL FREE TO DM ME ON TWITTER @uzairkhan123221 REGARDING ANY ISSUES :) ————*/
