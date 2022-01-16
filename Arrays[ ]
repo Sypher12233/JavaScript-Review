@@ -1,0 +1,13 @@
+//We can call arrays as 'a list of ordered, stored data'.
+//arrays can store different data types and the contents of an array are called 'elements'.
+//each element in an array has a numbered position starting from 0.
+//we can access the elements of an array by specifying their index value when printing them to the console;
+
+EXAMPLE 01;
+let fruits = [apples, bananas, oranges];     //here if we wanted to get the first element of the array 'fruits' we would type the following;
+console.log(fruits[0]);   //prints apples.
+
+//you can also update the elements of an array by specifying the index of the element you are updating;
+let fruits = ['apples', 'bananas', 'oranges'];
+fruits[3] = 'grapes';
+console.log(fruits);    //prints ['apples', 'bananas', 'oranges', 'grapes']
