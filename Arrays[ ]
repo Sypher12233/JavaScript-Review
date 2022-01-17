@@ -11,3 +11,11 @@ console.log(fruits[0]);   //prints apples.
 let fruits = ['apples', 'bananas', 'oranges'];
 fruits[3] = 'grapes';
 console.log(fruits);    //prints ['apples', 'bananas', 'oranges', 'grapes']
+
+
+//nested arrays;
+const numberClusters = [[1,2],[3,4],[5,6]];
+const target = numberClusters[2][1];
+
+
+/*TWITTER HANDLE: -------AS ALLWAYS, FEEL FREE TO DM ME ON TWITTER @uzairkhan123221 REGARDING ANY ISSUES :) ————*/
