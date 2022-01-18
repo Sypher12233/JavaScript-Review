@@ -1,0 +1,32 @@
+//A loop is a programming tool that repeats a set of instructions until a specified condition is met.
+//'iterate' simply means 'to repeat'.
+//look at the following example;
+const vationSpots = ['toronto', 'sydney', 'jedda'];     //lets say we wanted to log the elements of this array one by one(seperately)
+console.log(vacationSpots[0]);      //prints toronto
+console.log(vacationSpots[1]);      //prints sydney
+console.log(vacationSpots[2]);      //prints jedda      
+//Now what if we had 100s of places to list, writing down each of the following would be a pain.
+//instead of writing a code over and over again, loops tell a computer to repeat a block of code on its own.
+
+//a 'for loop' contains three expressions, seperated by semi colons (;). 
+//1) an initialization starts the loop and can also be used to declare the iterator variable.
+//2) a stopping condition is the condition that the iterator variable is evaluated against— if the condition evaluates to true the code block will run, and if it evaluates to false the code will stop.
+//3) an iteration statement is used to update the iterator variable on each loop.
+//the for loop syntax looks like this;   
+for (let counter = 0; counter < 4; counter++) {
+  console.log(counter);
+}
+Let’s break down the example:
+
+*)The initialization is let counter = 0, so the loop will start counting at 0.
+*)The stopping condition is counter < 4, meaning the loop will run as long as the iterator variable, counter, is less than 4.
+*)The iteration statement is counter++. This means after each loop, the value of counter will increase by 1. For the first iteration counter will equal 0, for the second iteration counter will equal 1, and so on.
+*)The code block is inside of the curly braces, console.log(counter), will execute until the condition evaluates to false. The condition will be false when counter is greater than or equal to 4 — the point that the condition becomes false is sometimes called the stop condition.
+
+// EXAMPLE 02.  Create a program that loops from 5 to 10 and logs each number to the console.
+for (let counter = 5; counter < 11; counter ++) {console.log(counter);}     //prints 5,6,7,8,9,10.
+
+//to make it run backwards, we can edit the loop as follows;
+for (let counter = 10; counter >= 5; counter --) {console.log(counter);}     //prints 10,9,8,7,6,5.
+
+/*TWITTER HANDLE: -------AS ALLWAYS, FEEL FREE TO DM ME ON TWITTER @uzairkhan123221 REGARDING ANY ISSUES :) ————*/
